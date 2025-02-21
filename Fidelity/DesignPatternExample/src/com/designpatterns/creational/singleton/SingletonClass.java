@@ -1,4 +1,4 @@
-package Fidelity;
+package com.designpatterns.creational.singleton; 
 
 public class SingletonClass {
     
@@ -18,6 +18,7 @@ public class SingletonClass {
      */
 
      // Public method to get the instance (lazy init with double-checked locking)
+    @SuppressWarnings("DoubleCheckedLocking")
      public static SingletonClass getInstance() {
         if(instance == null) {
             synchronized(SingletonClass.class) {
