@@ -1,8 +1,8 @@
 package com.example.ioc.demo;
 
-import org.springframework.stereotype.Component;
+// import org.springframework.stereotype.Component;
 
-@Component
+// @Component
 public class Customers {
 
     private int customerId;
